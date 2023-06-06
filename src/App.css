@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  transition: all ease-in-out 0.2s;
+  scroll-behavior: smooth;
+}
+:root {
+  --dblue: rgb(4, 10, 29);
+  --red: rgb(235, 44, 39);
+}
+::selection {
+  color: red;
+  background: yellow;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
